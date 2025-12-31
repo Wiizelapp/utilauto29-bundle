@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * AnalyticsSummaryView.
+ *
+ * Wiizel App - 2025
+ *
+ * @category Application
+ * @package  Unknown
+ * @author   Yann <yann@wiizelapp.com>
+ * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
+ * @link     https://wiizelapp.com
+ */
+
+namespace Shared\Application\OfferAnalytics;
+
+use Shared\Application\Offer\OfferView;
+
+final class AnalyticsSummaryView
+{
+    public function __construct(
+        public int $id,
+        public int $totalViews,
+        public int $uniqueViews,
+        public \DateTimeImmutable $lastViewedAt,
+        public string $lastIp,
+        public \DateTimeImmutable $createdAt,
+        public ?OfferView $offerView = null,
+    ){}
+}
