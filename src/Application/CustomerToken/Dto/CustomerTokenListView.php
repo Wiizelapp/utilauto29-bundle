@@ -16,8 +16,8 @@ declare(strict_types=1);
 
 namespace WiizelApp\UtilAuto29\Application\CustomerToken\Dto;
 
-use App\Domain\CustomerToken\TokenType;
 use WiizelApp\UtilAuto29\Application\Customer\Dto\CustomerView;
+use WiizelApp\UtilAuto29\Domain\CustomerToken\TokenType;
 
 class CustomerTokenListView
 {
