@@ -1,20 +1,19 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * PriceFormatter.
  *
  * Wiizel App - 2025
  *
- * @category Application
+ * @category Domain
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Service\Formatter;
+declare(strict_types=1);
+
+namespace WiizelApp\UtilAuto29\Service\Formatter;
 
 final class PriceFormatter
 {

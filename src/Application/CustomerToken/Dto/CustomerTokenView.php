@@ -1,23 +1,22 @@
 <?php
-
-declare(strict_types=1);
-
 /**
- * CustomerTokenListView.
+ * CustomerTokenView.
  *
  * Wiizel App - 2025
  *
  * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\CustomerToken\Dto;
+declare(strict_types=1);
 
-use App\Domain\CustomerToken\TokenType;
-use Shared\Application\Customer\Dto\CustomerView;
+namespace WiizelApp\UtilAuto29\Application\CustomerToken\Dto;
+
+use WiizelApp\UtilAuto29\Domain\CustomerToken\TokenType;
+use WiizelApp\UtilAuto29\Application\Customer\Dto\CustomerView;
 
 final class CustomerTokenView
 {

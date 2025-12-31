@@ -1,8 +1,19 @@
 <?php
+/**
+ * EstimateCarView.
+ *
+ * Wiizel App - 2025
+ *
+ * @category Application
+ * @package  Unknown
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
+ * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
+ * @link     https://wiizelapp.com
+ */
 
 declare(strict_types=1);
 
-namespace Shared\Application\Estimate;
+namespace WiizelApp\UtilAuto29\Application\Estimate;
 
 final class EstimateCarView
 {

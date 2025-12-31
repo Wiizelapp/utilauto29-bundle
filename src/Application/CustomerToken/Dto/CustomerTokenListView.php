@@ -7,17 +7,17 @@
  *
  * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
 declare(strict_types=1);
 
-namespace Shared\Application\CustomerToken\Dto;
+namespace WiizelApp\UtilAuto29\Application\CustomerToken\Dto;
 
 use App\Domain\CustomerToken\TokenType;
-use Shared\Application\Customer\Dto\CustomerView;
+use WiizelApp\UtilAuto29\Application\Customer\Dto\CustomerView;
 
 class CustomerTokenListView
 {

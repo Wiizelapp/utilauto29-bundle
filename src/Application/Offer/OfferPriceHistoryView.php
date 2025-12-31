@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * OfferPriceHistoryView.
  *
@@ -9,15 +6,16 @@ declare(strict_types=1);
  *
  * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\Offer;
+declare(strict_types=1);
+
+namespace WiizelApp\UtilAuto29\Application\Offer;
 
 use DateTimeImmutable;
-use Shared\Application\User\Dto\UserView;
 
 final class OfferPriceHistoryView
 {

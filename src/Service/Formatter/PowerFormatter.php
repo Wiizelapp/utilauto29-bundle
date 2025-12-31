@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * PowerFormatter.
  *
@@ -14,8 +11,9 @@ declare(strict_types=1);
  * @link     https://wiizelapp.com
  */
 
+declare(strict_types=1);
 
-namespace Shared\Service\Formatter;
+namespace WiizelApp\UtilAuto29\Service\Formatter;
 
 final class PowerFormatter
 {

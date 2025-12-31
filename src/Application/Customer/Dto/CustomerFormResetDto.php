@@ -1,20 +1,19 @@
 <?php
-
-declare(strict_types=1);
-
 /**
- * CustomerFormResetDto DTO.
+ * CustomerFormResetDto.
  *
- * EI Yann Cario - 2025
+ * Wiizel App - 2025
  *
- * @category Interface
+ * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\Customer\Dto;
+declare(strict_types=1);
+
+namespace WiizelApp\UtilAuto29\Application\Customer\Dto;
 
 class CustomerFormResetDto
 {

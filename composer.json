@@ -1,5 +1,5 @@
 {
-  "name": "utilauto29/shared",
+  "name": "wiizelapp/utilauto29-bundle",
   "type": "library",
   "authors": [
     {
@@ -9,10 +9,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "Shared\\": "src/"
+      "WiizelApp\\UtilAuto29\\": "src/"
     }
   },
   "require": {
+    "php": ">=8.4",
     "ext-intl": "*"
   }
 }

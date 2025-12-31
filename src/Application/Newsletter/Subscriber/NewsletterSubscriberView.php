@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * NewsletterSubscriberView.
  *
@@ -9,12 +6,14 @@ declare(strict_types=1);
  *
  * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\Newsletter\Subscriber;
+declare(strict_types=1);
+
+namespace WiizelApp\UtilAuto29\Application\Newsletter\Subscriber;
 
 final class NewsletterSubscriberView
 {

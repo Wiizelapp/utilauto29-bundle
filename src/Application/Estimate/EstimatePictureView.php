@@ -1,18 +1,19 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * EstimatePictureView.
  *
- * @category Domain
- * @package  utilauto29/shared
- * @author   Yann <yann@proaxive.fr>
+ * Wiizel App - 2025
+ *
+ * @category Application
+ * @package  Unknown
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
- * @link     https://utilauto29.fr
+ * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\Estimate;
+declare(strict_types=1);
+
+namespace WiizelApp\UtilAuto29\Application\Estimate;
 
 final class EstimatePictureView
 {

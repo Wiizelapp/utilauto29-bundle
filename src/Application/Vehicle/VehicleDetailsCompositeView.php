@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * VehicleDetailsCompositeView.
  *
@@ -9,22 +6,23 @@ declare(strict_types=1);
  *
  * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\Vehicle;
+declare(strict_types=1);
 
+namespace WiizelApp\UtilAuto29\Application\Vehicle;
 
-use Shared\Application\Vehicle\Sections\VehicleChassisView;
-use Shared\Application\Vehicle\Sections\VehicleCommercialDataView;
-use Shared\Application\Vehicle\Sections\VehicleConsumptionView;
-use Shared\Application\Vehicle\Sections\VehicleDimensionsView;
-use Shared\Application\Vehicle\Sections\VehicleElectricInfoView;
-use Shared\Application\Vehicle\Sections\VehicleEngineView;
-use Shared\Application\Vehicle\Sections\VehicleOffroadView;
-use Shared\Application\Vehicle\Sections\VehicleVersionView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleChassisView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleCommercialDataView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleConsumptionView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleDimensionsView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleElectricInfoView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleEngineView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleOffroadView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleVersionView;
 
 final readonly class VehicleDetailsCompositeView
 {

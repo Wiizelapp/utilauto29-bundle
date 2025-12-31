@@ -1,22 +1,21 @@
 <?php
-
-declare(strict_types=1);
-
 /**
- * CustomerCodeResetPasswordDto DTO.
+ * CustomerCodeResetPasswordDto.
  *
- * EI Yann Cario - 2025
+ * Wiizel App - 2025
  *
  * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\Customer\Dto;
+declare(strict_types=1);
 
-use Shared\Application\CustomerToken\Dto\CustomerTokenView as TokenView;
+namespace WiizelApp\UtilAuto29\Application\Customer\Dto;
+
+use WiizelApp\UtilAuto29\Application\CustomerToken\Dto\CustomerTokenView as TokenView;
 
 final class CustomerCodeResetPasswordDto
 {

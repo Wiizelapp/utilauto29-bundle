@@ -1,7 +1,4 @@
 <?php
-
-declare(strict_types=1);
-
 /**
  * OfferUpdateView.
  *
@@ -9,18 +6,20 @@ declare(strict_types=1);
  *
  * @category Application
  * @package  Unknown
- * @author   Yann <yann@wiizelapp.com>
+ * @author   Wiizel Softwares <yann@wiizelapp.com>
  * @license  GNU <https://www.gnu.org/licenses/licenses.fr.html>
  * @link     https://wiizelapp.com
  */
 
-namespace Shared\Application\Offer;
+declare(strict_types=1);
 
-use Shared\Application\Offer\Picture\PictureView;
-use Shared\Application\Vehicle\Sections\VehicleDimensionsView;
-use Shared\Application\Vehicle\Sections\VehicleEngineView;
-use Shared\Application\Vehicle\Sections\VehicleVersionView;
-use Shared\Domain\Offer\OfferStateEnum;
+namespace WiizelApp\UtilAuto29\Application\Offer;
+
+use WiizelApp\UtilAuto29\Application\Offer\Picture\PictureView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleDimensionsView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleEngineView;
+use WiizelApp\UtilAuto29\Application\Vehicle\Sections\VehicleVersionView;
+use WiizelApp\UtilAuto29\Domain\Offer\OfferStateEnum;
 
 class OfferUpdateView
 {

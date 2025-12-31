@@ -14,7 +14,7 @@ declare(strict_types=1);
  * @link     https://wiizelapp.com
  */
 
-namespace App\Domain\Wiizel\Dto;
+namespace WiizelApp\UtilAuto29\Domain\Wiizel\Dto;
 
 final readonly class ApiVehicleEquipment
 {
