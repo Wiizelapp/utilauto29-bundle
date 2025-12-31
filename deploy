@@ -1,5 +1,0 @@
-#!/bin/sh
-rsync -av ./ -e 'ssh -p 22' deploy@164.132.59.248:/var/www/site/utilauto/shared --exclude-from=.gitignore
-echo "--- Download completed ! ---"
-#ssh admin@163.172.86.62 -p 1924 'cd /home/admin/web/c-029ua.slabs.ovh/public_html && bin/console cache:clear'
-exit
