@@ -20,4 +20,7 @@ enum TokenType: string
     case INVITATION = 'invitation';
     case RESET_PASSWORD = 'reset_password';
     case VERIFY_EMAIL = 'verify_email';
+    case REGISTER = 'register';
+    case ACTIVE = 'active_account';
+    case EXPORT_DATA = 'export_data';
 }

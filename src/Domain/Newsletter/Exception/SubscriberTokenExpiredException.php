@@ -1,6 +1,6 @@
 <?php
 /**
- * SubscriberAlreadyExistsException.
+ * SubscriberTokenExpiredException.
  *
  * Wiizel App - 2025
  *
@@ -15,9 +15,9 @@ declare(strict_types=1);
 
 namespace WiizelApp\UtilAuto29\Domain\Newsletter\Exception;
 
-class SubscriberAlreadyExistsException extends \DomainException
+class SubscriberTokenExpiredException extends \DomainException
 {
-    public function __construct(string $message = "The subscriber already exists.")
+    public function __construct(string $message = "Le token de confirmation est expiré !")
     {
         parent::__construct($message);
     }
