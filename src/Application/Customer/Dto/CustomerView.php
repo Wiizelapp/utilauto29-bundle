@@ -40,7 +40,7 @@ final readonly class CustomerView
 
     public function getId(): int { return $this->id; }
     public function getFullName(): string { return $this->fullName; }
-    public function getEmail(): string { return $this->email; }
+    public function getEmail(): ?string { return $this->email; }
     public function getPhone(): ?string { return $this->phone; }
     public function getMobile(): ?string { return $this->mobile; }
     public function getAddress(): ?string { return $this->address; }
