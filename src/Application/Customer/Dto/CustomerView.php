@@ -20,7 +20,7 @@ final readonly class CustomerView
     public function __construct(
         private int $id,
         private string $fullName,
-        private string $email,
+        public ?string $email = null,
         private ?int $customerNumber,
         private \DateTimeInterface $createdAt,
         private \DateTimeInterface $updatedAt,

@@ -20,7 +20,7 @@ final class CustomerListView
     public function __construct(
         public int $id,
         public string $fullName,
-        public string $email,
+        public ?string $email = null,
         public ?string $phone = null,
         public ?string $address = null,
         public ?string $city = null,
