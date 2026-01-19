@@ -19,8 +19,8 @@ final class PlanningView
 {
     public function __construct(
         public int $id,
-        public \DateTime $beginAt,
-        public \DateTime $endAt,
+        public \DateTimeImmutable $beginAt,
+        public \DateTimeImmutable $endAt,
         public string $title,
         public bool $allDay,
         public ?string $description = null,
