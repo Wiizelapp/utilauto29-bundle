@@ -1,6 +1,6 @@
 <?php
 /**
- * PlanningView.
+ * PlanningCategoryView.
  *
  * Wiizel App - 2025
  *
@@ -15,18 +15,13 @@ declare(strict_types=1);
 
 namespace WiizelApp\UtilAuto29\Application\Planning;
 
-final class PlanningView
+class PlanningCategoryView
 {
     public function __construct(
         public int $id,
-        public \DateTimeImmutable $beginAt,
-        public \DateTimeImmutable $endAt,
-        public string $title,
-        public bool $allDay,
-        public ?PlanningCategoryView $category = null,
-        public ?string $description = null,
-        public ?string $backgroundColor = null,
-        public ?string $textColor = null,
+        public ?string $label = null,
+        public ?string $bgColor = null,
+        public ?string $color = null,
     ) {
     }
 }
