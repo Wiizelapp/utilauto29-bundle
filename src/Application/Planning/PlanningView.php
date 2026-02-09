@@ -25,8 +25,6 @@ final class PlanningView
         public bool $allDay,
         public ?PlanningCategoryView $category = null,
         public ?string $description = null,
-        public ?string $backgroundColor = null,
-        public ?string $textColor = null,
     ) {
     }
 }

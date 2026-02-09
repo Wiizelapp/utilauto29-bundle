@@ -15,6 +15,8 @@ declare(strict_types=1);
 
 namespace WiizelApp\UtilAuto29\Application\Newsletter\Subscriber;
 
+use DateTimeImmutable;
+
 final class NewsletterSubscriberView
 {
     public function __construct(
@@ -22,7 +24,8 @@ final class NewsletterSubscriberView
         private string $mail,
         private bool $isActivated,
         private string $token,
-        private string $mailHash
+        private string $mailHash,
+        private DateTimeImmutable $expiredAt,
     ){}
 
     public function getId(): int { return $this->id; }
@@ -30,4 +33,5 @@ final class NewsletterSubscriberView
     public function isActivated(): bool { return $this->isActivated; }
     public function getToken(): string { return $this->token; }
     public function getMailHash(): string { return $this->mailHash; }
+    public function getExpiredAt(): DateTimeImmutable { return $this->expiredAt; }
 }
