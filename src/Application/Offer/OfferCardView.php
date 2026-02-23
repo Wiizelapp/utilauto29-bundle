@@ -43,6 +43,7 @@ final class OfferCardView implements \JsonSerializable
         private ?string $issuance,
         public ?int $countVisits,
         public ?bool $online,
+        private ?int $totalPictures = null,
         private ?bool $isFavoriteByUser = null
     ){}
 
@@ -68,6 +69,7 @@ final class OfferCardView implements \JsonSerializable
     public function getIssuance(): ?string { return $this->issuance; }
     public function isFavoriteByUser(): ?bool { return $this->isFavoriteByUser; }
     public function getOfferState(): ?OfferStateEnum { return $this->offerState; }
+    public function getTotalPictures(): ?int { return $this->totalPictures; }
 
     public function jsonSerialize(): mixed
     {
@@ -94,6 +96,7 @@ final class OfferCardView implements \JsonSerializable
             'issuance' => $this->issuance,
             'countVisits' => $this->countVisits,
             'offerState' => $this->offerState,
+            'totalPictures' => $this->totalPictures,
         ];
     }
 }
