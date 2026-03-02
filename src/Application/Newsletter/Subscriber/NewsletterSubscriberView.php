@@ -23,15 +23,15 @@ final class NewsletterSubscriberView
         private int $id,
         private string $mail,
         private bool $isActivated,
-        private string $token,
         private string $mailHash,
-        private DateTimeImmutable $expiredAt,
+        private ?string $token = null,
+        private ?DateTimeImmutable $expiredAt = null,
     ){}
 
     public function getId(): int { return $this->id; }
     public function getMail(): string { return $this->mail; }
     public function isActivated(): bool { return $this->isActivated; }
-    public function getToken(): string { return $this->token; }
+    public function getToken(): ?string { return $this->token; }
     public function getMailHash(): string { return $this->mailHash; }
-    public function getExpiredAt(): DateTimeImmutable { return $this->expiredAt; }
+    public function getExpiredAt(): ?DateTimeImmutable { return $this->expiredAt; }
 }
