@@ -25,6 +25,8 @@ final class NewsletterSubscriberView
         private bool $isActivated,
         private string $mailHash,
         private ?string $token = null,
+        private ?string $source = null,
+        private ?int $riskScore = null,
         private ?DateTimeImmutable $expiredAt = null,
     ){}
 
@@ -34,4 +36,6 @@ final class NewsletterSubscriberView
     public function getToken(): ?string { return $this->token; }
     public function getMailHash(): string { return $this->mailHash; }
     public function getExpiredAt(): ?DateTimeImmutable { return $this->expiredAt; }
+    public function getSource(): ?string { return $this->source; }
+    public function getRiskScore(): ?int { return $this->riskScore; }
 }
