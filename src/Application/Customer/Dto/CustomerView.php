@@ -35,7 +35,8 @@ final readonly class CustomerView
         private ?string $withReduction = null,
         private ?int $code = null,
         private ?bool $isSecure2Fa = null,
-        private ?array $vehiclesRelation = []
+        private ?array $vehiclesRelation = [],
+        private ?array $events = [],
     ){}
 
     public function getId(): int { return $this->id; }
@@ -56,5 +57,6 @@ final readonly class CustomerView
     public function getCode(): ?int { return $this->code; }
     public function getVehiclesRelation(): array { return $this->vehiclesRelation; }
     public function isSecure2Fa(): bool { return $this->isSecure2Fa; }
+    public function events(): array { return $this->events; }
 
 }

@@ -15,6 +15,8 @@ declare(strict_types=1);
 
 namespace WiizelApp\UtilAuto29\Application\Planning;
 
+use WiizelApp\UtilAuto29\Application\Customer\Dto\CustomerIdView;
+
 final class PlanningView
 {
     public function __construct(
@@ -25,6 +27,7 @@ final class PlanningView
         public bool $allDay,
         public ?PlanningCategoryView $category = null,
         public ?string $description = null,
+        public ?CustomerIdView $customer = null,
     ) {
     }
 }
