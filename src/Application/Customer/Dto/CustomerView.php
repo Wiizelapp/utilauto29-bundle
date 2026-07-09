@@ -37,6 +37,8 @@ final readonly class CustomerView
         private ?bool $isSecure2Fa = null,
         private ?array $vehiclesRelation = [],
         private ?array $events = [],
+        private ?bool $isOnline = null,
+        private ?bool $isActivated = null,
     ){}
 
     public function getId(): int { return $this->id; }
