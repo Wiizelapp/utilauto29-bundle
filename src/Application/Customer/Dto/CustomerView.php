@@ -60,5 +60,6 @@ final readonly class CustomerView
     public function getVehiclesRelation(): array { return $this->vehiclesRelation; }
     public function isSecure2Fa(): bool { return $this->isSecure2Fa; }
     public function events(): array { return $this->events; }
-
+    public function isOnline(): bool { return $this->isOnline; }
+    public function isActivated(): bool { return $this->isActivated; }
 }

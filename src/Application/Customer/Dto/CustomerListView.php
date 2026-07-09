@@ -25,5 +25,7 @@ final class CustomerListView
         public ?string $address = null,
         public ?string $city = null,
         public ?int $customerNumber = null,
+        public ?bool $isOnline = null,
+        public ?bool $isActivated = null,
     ){}
 }

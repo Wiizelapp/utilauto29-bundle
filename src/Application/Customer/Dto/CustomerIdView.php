@@ -23,5 +23,7 @@ final class CustomerIdView
         public ?string $email = null,
         public ?string $token = null,
         public ?int $code = null,
+        public ?bool $isOnline = null,
+        public ?bool $isActivated = null,
     ){}
 }
